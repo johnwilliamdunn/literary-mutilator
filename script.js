@@ -1,7 +1,12 @@
 window.onload = function() {
-	initLiterary-Mutilator();
+	//textColor();
 };
 
-function literary-mutilator() {
-	document.getElementById("text-color").style.color = "green";
-};
+/*adding ability to change font color on mouse over*/
+function textColor() {
+	document.getElementById("text-color").style.color = "blue";
+}
+
+function revertTextColor() {
+	document.getElementById("text-color").style.color = "";
+}

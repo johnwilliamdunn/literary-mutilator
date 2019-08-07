@@ -1,29 +1,42 @@
 <!doctype html>
-<html lang ="en">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8">
 		<script src="./script.js"></script>
+		<title>Literary Mutilator</title>
 	</head>
-	<title>Literary Mutilator</title>
-<body>
-<script>
-	function literary-mutilator() {
-		document.getElementById("text-color").style.color = "green";
-	};
-</script>
-<p>
-	These are the voyages of the Starship Enterprise. Its continuing mission, to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before. We need to neutralize the homing signal. Each unit has total environmental control, gravity, temperature, atmosphere, light, in a protective field. Sensors show energy readings in your area. We had a forced chamber explosion in the resonator coil. Field strength has increased by 3,000 percent.
-</p>
 
-<p>
-	Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000 light years and are located near the system J-25. Tractor beam released, sir. Force field maintaining our hull integrity. Damage report? Sections 27, 28 and 29 on decks four, five and six destroyed. Without our shields, at this range it is probable a photon detonation could destroy the Enterprise.
-</p>
+	<body>
 
-<p>
-	We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an abundance of geothermal energy. We need to neutralize the homing signal.
-</p>
+		<p id="text-color" onmouseover="textColor();" onmouseleave="revertTextColor();">
+			These are the voyages of the Starship Enterprise. Its continuing mission, to explore strange new worlds, to
+			seek out new life and new civilizations, to boldly go where no one has gone before. We need to neutralize the
+			homing signal. Each unit has total environmental control, gravity, temperature, atmosphere, light, in a
+			protective field. Sensors show energy readings in your area. We had a forced chamber explosion in the resonator
+			coil. Field strength has increased by 3,000 percent.
+		</p>
 
+		<p id="change-font">
+			Sensors indicate no shuttle or other ships in this sector. According to coordinates, we have travelled 7,000
+			light years and are located near the system J-25. Tractor beam released, sir. Force field maintaining our hull
+			integrity. Damage report? Sections 27, 28 and 29 on decks four, five and six destroyed. Without our shields, at
+			this range it is probable a photon detonation could destroy the Enterprise.
+		</p>
 
+		<p id="shuffle-words">
+			We're acquainted with the wormhole phenomenon, but this... Is a remarkable piece of bio-electronic engineering
+			by which I see much of the EM spectrum ranging from heat and infrared through radio waves, et cetera, and
+			forgive me if I've said and listened to this a thousand times. This planet's interior heat provides an
+			abundance of geothermal energy. We need to neutralize the homing signal.
+		</p>
 
-</body>
+		<p id="hightlight-word">
+			These are the voyages of the Starship Enterprise. Its continuing mission, to explore strange new worlds, to
+			seek out new life and new civilizations, to boldly go where no one has gone before. We need to neutralize the
+			homing signal. Each unit has total environmental control, gravity, temperature, atmosphere, light, in a
+			protective field. Sensors show energy readings in your area. We had a forced chamber explosion in the resonator
+			coil. Field strength has increased by 3,000 percent.
+		</p>
+
+	</body>
 </html>
