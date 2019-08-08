@@ -23,6 +23,3 @@ function highlight() {
 }
 
 //adding ability to react to an event
-function react-to-event() {
-	document.getElementById("react-to-event")style.click
-}
