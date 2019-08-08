@@ -17,8 +17,12 @@ function revertTextColor() {
 }
 
 //adding ability to highlight a word
-function highlightText() {
-	
+function highlight() {
+	document.getElementById("highlight").style.color = "orange";
+
 }
 
-
+//adding ability to react to an event
+function react-to-event() {
+	document.getElementById("react-to-event")style.click
+}
