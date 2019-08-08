@@ -1,5 +1,6 @@
 window.onload = function() {
 	//textColor();
+	//changeFont();
 };
 
 /*adding ability to change font color on mouse over*/
@@ -13,5 +14,5 @@ function revertTextColor() {
 
 //adding ability to change font
 function changeFont() {
-	document.getElementById("change-font").style.fontFamily = "arial";
+	document.getElementById("change-font").style.fontFamily = "sans-serif";
 }
