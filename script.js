@@ -6,7 +6,12 @@ window.onload = function() {
 function textColor() {
 	document.getElementById("text-color").style.color = "blue";
 }
-
+//adding ability to change font color on mouse leave
 function revertTextColor() {
 	document.getElementById("text-color").style.color = "";
+}
+
+//adding ability to change font
+function changeFont() {
+	document.getElementById("change-font").style.fontFamily = "arial";
 }
