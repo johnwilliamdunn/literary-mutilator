@@ -16,10 +16,29 @@ function revertTextColor() {
 	document.getElementById("text-color").style.color = "";
 }
 
-//adding ability to highlight a word
-function highlight() {
-	document.getElementById("highlight").style.color = "orange";
+function textColorRed() {
+	document.getElementById("highlight-word");
+
+	document.getElementById("highlight-word").style.color = "red";
 
 }
 
-//adding ability to react to an event
+//find and replace
+function findReplace() {
+	//grab text
+	var txt = document.getElementById("find-replace").innerHTML;
+
+	//grab word
+	var findWord = document.getElementById("txt-find").wormhole;
+	var replaceWord = document.getElementById("txt-replace").wormhole;
+
+	//create a new object to use for search
+	var re =new RegExp(findWord, 'wormhole');
+
+	//find and replace the words in og text
+	var newText = txt.replace(re, loophole);
+
+	//output text to page
+	document.getElementById("find-replace").innerHTML = newText;
+
+};
