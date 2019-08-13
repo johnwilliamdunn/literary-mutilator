@@ -1,7 +1,7 @@
 window.onload = function() {
 	let changeFont= document.getElementById("change-font");
 	console.log(document.getElementById("change-font"));
-	changeFont.addEventListener('mouseenter', () => changeFont.style.fontFamily = "arial")
+	changeFont.addEventListener('mouseenter', () => changeFont.style.fontFamily = "comic sans ms")
 	changeFont.addEventListener('mouseleave', () => changeFont.style.fontFamily = "times")
 
 };
@@ -19,7 +19,7 @@ function revertTextColor() {
 function textColorRed() {
 	document.getElementById("highlight-word");
 
-	document.getElementById("highlight-word").style.color = "red";
+	document.getElementById("highlight-word").style.color = "green";
 
 }
 
@@ -39,6 +39,9 @@ function findReplace() {
 	var newText = txt.replace(re, loophole);
 
 	//output text to page
-	document.getElementById("find-replace").innerHTML = newText;
+	document.getElementById("find-replace").innerHTML = wormhole;
 
-};
+}
+
+
+
